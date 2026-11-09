@@ -1,0 +1,9 @@
+# 依赖版本与开发验证环境一致（Python 3.12.8）
+# 注意：fastapi 0.115.x 必须配 starlette < 0.42。
+# 若放任装到 starlette 1.x，import fastapi 会刷几十行 HTTP_422_UNPROCESSABLE_ENTITY 弃用警告。
+fastapi==0.115.12
+starlette==0.41.3
+uvicorn==0.34.0
+pydantic==2.14.1
+Faker==40.44.0
+openai==3.35.1
